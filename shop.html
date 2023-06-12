@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link rel="icon" href="Imagenes/Logo-Sudo.ico">
 
@@ -23,7 +23,7 @@
         }
     </style>
 </head>
-
+    
 <body>
     <header class="headerIndex">
         <nav>
@@ -35,8 +35,13 @@
             <a class="link" href="shop.html">Shop</a> 
         </nav>
         <div class="header-container">
-            <img src="Imagenes/Logo-Sudo.png" alt="Logo Sudo" width="400">
+
+            <img src="Imagenes/Logo-Sudo.png" alt="Logo Sudo" width="400" class="animate__animated animate__zoomIn">
+
         </div>
+          
+
+        
         <div class="shopping-cart-container">
             <a data-modal="modal-one"><img src="Imagenes/cart.png" alt="Carrito de compras"> Carrito de compras (<span id="item-count">0</span>)</a>
             <div class="modal" id="modal-one">
